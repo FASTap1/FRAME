@@ -1,0 +1,12 @@
+Fault: 13-06-2021 10:33:39 - Не верное имя файла для подключения - core/admin/controller/Model
+file C:\OpenServer\domains\im.my\public_html\core\base\settings\internal_settings.php
+In line 33
+
+Fault: 13-06-2021 10:40:01 - Не верное имя файла для подключения - core/admin/controller/Model
+file C:\OpenServer\domains\im.my\public_html\core\base\settings\internal_settings.php
+In line 33
+
+Fault: 13-06-2021 10:48:45 - Не верное имя файла для подключения - core/admin/controller/Model
+file C:\OpenServer\domains\im.my\public_html\core\base\settings\internal_settings.php
+In line 33
+

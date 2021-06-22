@@ -1,0 +1,241 @@
+
+Fault: 20-05-2021 12:27:30 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers   ORDER BY teachers.fio ASC,teachers.name ASC Array - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 37
+
+Fault: 20-05-2021 12:30:39 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers   ORDER BY teachers.fio ASC,teachers.name ASC Array - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 37
+
+Fault: 22-05-2021 16:01:45 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers  WHERE teachers.name IN ('masha') AND teachers.surname<>(SELECT name FROM students WHERE id = 1)  ORDER BY 1 DESC,teachers.name DESC LIMITArray - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMITArray' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 37
+
+Fault: 22-05-2021 16:08:07 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers  WHERE teachers.name='O'Rally'  ORDER BY teachers.name DESC LIMIT 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Rally'  ORDER BY teachers.name DESC LIMIT 1' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 37
+
+Fault: 29-05-2021 3:59:46 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,gallery_img,img,) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg',) - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_im' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 29-05-2021 4:07:56 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1364 Field 'name' doesn't have a default value
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:21:40 - Ошибка в SQL запросе: UPDATE teachers SET id=',name=',img=', WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:23:48 - Ошибка в SQL запросе: UPDATE teachers SET id=',name=',img=', WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:24:13 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL, WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:28:17 - Ошибка в SQL запросе: UPDATE teachers SET name=NULL,img=NULL, WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:33:05 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL, img=NULL, WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:33:18 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL, WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:33:24 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL, WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:33:52 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL ,name=NULL ,img=NULL , WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:34:15 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL, name=NULL, img=NULL, , WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:34:51 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL, name=NULL, img=NULL, , WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:34:59 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL, name=NULL, img=NULL, , WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:36:26 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL name=NULL img=NULL , WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name=NULL img=NULL , WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:37:27 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL, name=NULL, img=NULL, , WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:37:50 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL, name=NULL, img=NULL, , WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:38:03 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL, name=NULL, img=NULL, , WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:40:11 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL, name=NULL, img=NULL, , WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:40:37 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL, name=NULL, img=NULL, , WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:40:48 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL, name=NULL, img=NULL, , WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:41:02 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL, name=NULL, img=NULL, , WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:41:48 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL, name=NULL, img=NULL,  WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE teachers.id='1'' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:41:56 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:52:30 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 5:53:06 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 9:20:57 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 9:21:09 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 9:21:56 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 9:21:58 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 9:23:24 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 9:23:39 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 9:24:00 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 9:25:12 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 9:25:38 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='2'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 9:26:05 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='3'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 9:26:14 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='3'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 9:26:16 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='3'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 9:26:17 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='3'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 22:52:08 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='3'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 22:52:19 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='3'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 22:53:02 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='3'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 22:57:56 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='3'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 22:59:30 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='8'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 22:59:31 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='8'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 22:59:32 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='8'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 22:59:32 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='8'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 23:01:09 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 23:01:10 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 23:01:10 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 23:01:11 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 06-06-2021 23:01:14 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 07-06-2021 4:22:55 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,img=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 07-06-2021 4:23:22 - Ошибка в SQL запросе: UPDATE teachers SET name=NULL,img=NULL,id=NULL WHERE teachers.id='1'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 07-06-2021 4:30:05 - Ошибка в SQL запросе: DELETE teachers, student FROM teachers LEFT JOIN student ON teachers.student_id=student.id WHERE teachers.id='9'  - 1146 Table 'im.student' doesn't exist
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 07-06-2021 7:31:46 - Ошибка в SQL запросе: UPDATE teachers SET id=NULL,name=NULL,content=NULL WHERE teachers.id='2'  - 1048 Column 'id' cannot be null
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
+Fault: 13-06-2021 11:09:38 - Ошибка в SQL запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+file C:\OpenServer\domains\im.my\public_html\core\base\model\BaseModel.php
+In line 44
+
